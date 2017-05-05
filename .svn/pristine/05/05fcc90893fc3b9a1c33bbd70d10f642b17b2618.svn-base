@@ -1,0 +1,38 @@
+/**
+ * 
+ */
+package Vorlagen;
+
+/**
+ * TODO: Noch nicht in Benutzung
+ * 
+ * @author Thorsten Schulz, Alexander Röber
+ */
+public class Vorlage
+{
+    int id;
+    String name;
+    String pfad;
+    
+    public Vorlage(int id, String name, String pfad)
+    {
+        this.id = id;
+        this.name = name;
+        this.pfad = pfad;
+    }
+    
+    public int getId()
+    {
+        return id;
+    }
+    
+    public String getName()
+    {
+        return name;
+    }
+    
+    public String getPfad()
+    {
+        return pfad;
+    }
+}

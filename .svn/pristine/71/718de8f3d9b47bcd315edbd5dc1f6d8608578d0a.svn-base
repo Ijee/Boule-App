@@ -1,0 +1,8 @@
+package Turnierplan;
+
+import Main.Master;
+
+public interface TurnierMaster extends Master
+{
+
+}

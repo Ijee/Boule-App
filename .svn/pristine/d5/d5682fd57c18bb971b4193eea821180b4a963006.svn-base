@@ -1,0 +1,33 @@
+/**
+ * 
+ */
+package Vorlagen;
+
+/**
+ * Diese Klasse stellt einen Eintrag für die VorlagenVision dar.
+ *                  --> Vorerst nicht in Benutzung <-- 
+ * 
+ * @author Thorsten Schulz, Alexander Röber
+ */
+public class VorlagenEintrag
+{
+    String pfad;
+    String erstellungsDatum;
+    
+    
+    public VorlagenEintrag()
+    {
+        
+    }
+    
+    public String getPfad()
+    {
+        return pfad;
+    }
+    
+    public String getErstellungsDatum()
+    {
+        return erstellungsDatum;
+    }
+
+}
